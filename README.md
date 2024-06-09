@@ -14,6 +14,10 @@ The game includes features such as a toss to decide which team bats or bowls fir
 - Target Chasing: The game stops automatically if the chasing team reaches the target score.
 - Result Declaration: Declares the winner or if the match is a tie.
 
+# Tech Used 
+
+![Python](https://img.shields.io/badge/python-%233776AB.svg?style=for-the-badge&logo=python&logoColor=white) 
+
 # Follow the prompts:
 
 - Enter your team name.
