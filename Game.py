@@ -88,9 +88,11 @@ def play_cricket_game():
     
     # Determine Winner
     if user_runs > computer_runs:
-        print(f"\n{user_team_name} wins by {user_runs - computer_runs} runs")
+        wickets_remaining = 3 - user_wickets
+        print(f"\n{user_team_name} won by {wickets_remaining} wickets")
     elif computer_runs > user_runs:
-        print(f"\n{computer_team_name} wins by {computer_runs - user_runs} runs")
+        runs_remaining = computer_runs - user_runs
+        print(f"\n{computer_team_name} won by {runs_remaining} runs")
     else:
         print(f"\nIt's a tie! Both teams scored {user_runs} runs.")
 
