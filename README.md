@@ -1,7 +1,6 @@
 # Cricket Game Simulation
 
 This repository contains a Python script that simulates an interactive cricket game between a user team and a computer team.
-
 The game includes features such as a toss to decide which team bats or bowls first, user input for team names and overs selection, and a dynamic gameplay experience where users press a key to deliver each ball.
 
 # Features
